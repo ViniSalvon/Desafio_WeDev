@@ -7,8 +7,6 @@ ________________
 O desafio foi proposto pela empresa WeDev Software, e tinha como objetivo central um MVP de uma aplicação web.
 Ainda, foi definido pela empresa que apenas a parte do back-end era requisito para cumprir esta tarefa.
 
-Mais detalhes podem ser consultados no arquivo desafio.pdf.
-
 _________________
 
 <h3>Desenvolvimento</h3>
