@@ -1,90 +1,90 @@
-Desafio Python
+<h1>Desafio Python</h1>
 
 ________________
 
-===== IntroduÁ„o =====
+<h3>Introdu√ß√£o</h3>
 
-O desafio foi proposto pela empresa WeDev Software, e tinha como objetivo central um MVP de uma aplicaÁ„o web.
+O desafio foi proposto pela empresa WeDev Software, e tinha como objetivo central um MVP de uma aplica√ß√£o web.
 Ainda, foi definido pela empresa que apenas a parte do back-end era requisito para cumprir esta tarefa.
 
 Mais detalhes podem ser consultados no arquivo desafio.pdf.
 
 _________________
 
-===== Desenvolvimento =====
+<h3>Desenvolvimento</h3>
 
-A seguir, est„o detalhados os sistemas desenvolvidos.
+A seguir, est√£o detalhados os sistemas desenvolvidos.
 
 
-1) CriaÁ„o de um sistema hier·rquico de usu·rios:
+<h4>1) Cria√ß√£o de um sistema hier√°rquico de usu√°rios:</h4>
 
-O sistema desenvolvido utilizou o sistema de usu·rios nativo do Django. Foram definidas 3 classes:
+O sistema desenvolvido utilizou o sistema de usu√°rios nativo do Django. Foram definidas 3 classes:
 
 - Staff/Admin
 - Professores
 - Alunos
 
-Enquanto professores e alunos foram definidos atravÈs do sistema de grupos nativo do Django, a Staff foi definida atravÈs do sistema de superusu·rios do Django.
-Logo, os membros da Staff s„o os ˙nicos capazes de logar no ambiente administrativo do site, aonde podem cadastrar usu·rios e cursos.
+Enquanto professores e alunos foram definidos atrav√©s do sistema de grupos nativo do Django, a Staff foi definida atrav√©s do sistema de superusu√°rios do Django.
+Logo, os membros da Staff s√£o os √∫nicos capazes de logar no ambiente administrativo do site, aonde podem cadastrar usu√°rios e cursos.
 
-Com exceÁ„o de m˙ltiplos n˙meros de telefone, todos os objetivos dos campos de cadastro de usu·rios foram atingidos.
-No caso de cursos, todos os campos foram atendidos, sem exceÁ„o. Entretanto, È possÌvel para os usu·rios da Staff cadastrar alunos em cursos.
-
-
-2) Sistema de login:
-
-Foi criado um sistema de login que engloba todos os usu·rios do site.
-Ao logar, alunos e professores s„o redirecionados para suas respectivas p·ginas, as quais n„o s„o acessÌveis por qualquer outro grupo.
-
-J· membros da staffs s„o redirecionados para o painel administrativo.
+Com exce√ß√£o de m√∫ltiplos n√∫meros de telefone, todos os objetivos dos campos de cadastro de usu√°rios foram atingidos.
+No caso de cursos, todos os campos foram atendidos, sem exce√ß√£o. Entretanto, √© poss√≠vel para os usu√°rios da Staff cadastrar alunos em cursos.
 
 
-=== Objetivos atingidos ===
+<h4>2) Sistema de login:</h4>
 
-- Staffs com permiss„o de cadastrar alunos, professores e cursos na plataforma
+Foi criado um sistema de login que engloba todos os usu√°rios do site.
+Ao logar, alunos e professores s√£o redirecionados para suas respectivas p√°ginas, as quais n√£o s√£o acess√≠veis por qualquer outro grupo.
+
+J√° membros da staffs s√£o redirecionados para o painel administrativo.
+
+
+<h4>Objetivos atingidos</h4>
+
+- Staffs com permiss√£o de cadastrar alunos, professores e cursos na plataforma
 - Cursos serem vinculados a um, e somente um, professor durante o cadastro
-- Cursos admitem m˙ltiplos alunos matriculados
-- Cadastro de alunos e professores contemplam todos os campos requisitados, com exceÁ„o de m˙ltiplos campos para telefones.
-- Cadastro de cursos contemplam todos os campos requisitados, sem exceÁ„o. PorÈm, existe a possibilidade de cadastrar alunos durante a criaÁ„o do curso pelo Staff, com a possibilidade de ser deixado em branco.
-- Cada usu·rio pode fazer login na aplicaÁ„o e sÛ possui acesso ‡ sua respectiva tela.
+- Cursos admitem m√∫ltiplos alunos matriculados
+- Cadastro de alunos e professores contemplam todos os campos requisitados, com exce√ß√£o de m√∫ltiplos campos para telefones.
+- Cadastro de cursos contemplam todos os campos requisitados, sem exce√ß√£o. Por√©m, existe a possibilidade de cadastrar alunos durante a cria√ß√£o do curso pelo Staff, com a possibilidade de ser deixado em branco.
+- Cada usu√°rio pode fazer login na aplica√ß√£o e s√≥ possui acesso √† sua respectiva tela.
 
 
-=== Objetivos n„o atingidos ===
+<h4>Objetivos n√£o atingidos</h4>
 
 - Acessos a listas de alunos e cursos
 - Total de alunos em um curso ministrado pelo professor
-- Alunos poderem verificar e editar informaÁıes pessoais
+- Alunos poderem verificar e editar informa√ß√µes pessoais
 - Registro de alunos em cursos
-- AvaliaÁ„o de cursos por parte de alunos
-- M˙ltiplos telefones no cadastro de alunos e professores.
+- Avalia√ß√£o de cursos por parte de alunos
+- M√∫ltiplos telefones no cadastro de alunos e professores.
 
 _________________
 
-===== Conclusıes e Aprendizados =====
+<h3>Conclus√µes e Aprendizados</h3>
 
-Durante o exercÌcio, o candidato teve um contato um pouco mais profundo com o framework Django, tendo tido um aprendizado relevante.
+Durante o exerc√≠cio, o candidato teve um contato um pouco mais profundo com o framework Django, tendo tido um aprendizado relevante.
 Alguns pontos de aprendizado podem ser listados a seguir:
 
-- CriaÁ„o de sites b·sicos utilizando o Django
-- CriaÁ„o de sistemas b·sicos de usu·rios
-- CriaÁ„o de sistemas de login e logout com redirecionamento
-- ProteÁ„o b·sica de acesso
-- CriaÁ„o de aplicativos web de nÌvel b·sico
+- Cria√ß√£o de sites b√°sicos utilizando o Django
+- Cria√ß√£o de sistemas b√°sicos de usu√°rios
+- Cria√ß√£o de sistemas de login e logout com redirecionamento
+- Prote√ß√£o b√°sica de acesso
+- Cria√ß√£o de aplicativos web de n√≠vel b√°sico
 
-No mais, o autor agradece ‡ WeDev Software pela oportunidade de participar deste processo seletivo e pelo aprendizado adquirido.
+No mais, o autor agradece √† WeDev Software pela oportunidade de participar deste processo seletivo e pelo aprendizado adquirido.
 
 __________________
 
-===== Projetos Futuros =====
+<h3>Projetos Futuros</h3>
 
 Com calma e mais tempo, devo procurar concluir todo o projeto proposto.
 Posteriormente, devo investir tempo em projetos paralelos que podem agregar ao desenvolvimento web com Django e vice-versa.
 
 ___________________
 
-===== ReferÍncias =====
+<h3>Refer√™ncias</h3>
 
-Stack Overflow
-Hashtag ProgramaÁ„o (https://www.youtube.com/watch?v=DNGI5aD9MJs)
-Carol Padiernos (https://cpadiernos.github.io/how-to-add-fields-to-the-user-model-in-django.html)
-Esther Vaati (https://betterprogramming.pub/design-your-own-login-and-registration-system-in-django-b34a2fa8334d)
+- Stack Overflow
+- Hashtag Programa√ß√£o (https://www.youtube.com/watch?v=DNGI5aD9MJs)
+- Carol Padiernos (https://cpadiernos.github.io/how-to-add-fields-to-the-user-model-in-django.html)
+- Esther Vaati (https://betterprogramming.pub/design-your-own-login-and-registration-system-in-django-b34a2fa8334d)
