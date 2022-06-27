@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <style>
+        body {
+            background-color: rgb(37, 171, 224);
+            color: rgb(144, 0, 228);
+            font: normal 15pt Arial;
+        }
+
+        h1 {
+            color: rgb(110, 0, 173);
+        }
+    </style>
+</head>
+<body>
+{% block title %}Login{% endblock %}
+
+{% block content %}
+<h2>Login</h2>
+<form method="post">
+    {% csrf_token %}
+    <div class="fieldWrapper">
+        {{ form.username.errors }}
+        <label for="{{ form.username.id_for_label }}">Usuário:</label>
+        {{ form.username }}
+    </div>
+    <div class="fieldWrapper">
+        {{ form.password.errors }}
+        <label for="{{ form.password.id_for_label }}">Senha:</label>
+        {{ form.password }}
+    </div>
+    <button type="submit">Login</button>
+</form>
+{% endblock %}
+</body>
+</html>
